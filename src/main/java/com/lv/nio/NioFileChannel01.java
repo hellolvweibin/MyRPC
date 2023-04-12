@@ -26,7 +26,7 @@ public class NioFileChannel01 {
         //str放入buffer
         buffer.put(str.getBytes());
 
-        //对 byteBuffer 进行 flip
+        //对 byteBuffer 进行 flip,读写切换
         buffer.flip();
 
         //byteBuffer 数据写入到 fileChannel
