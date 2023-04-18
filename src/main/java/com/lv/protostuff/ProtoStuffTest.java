@@ -1,7 +1,7 @@
-package com.lv.protoStuff;
+package com.lv.protostuff;
 
-import com.lv.protoStuff.pojo.Group;
-import com.lv.protoStuff.pojo.User;
+import com.lv.protostuff.pojo.Group;
+import com.lv.protostuff.pojo.User;
 
 import java.util.Arrays;
 

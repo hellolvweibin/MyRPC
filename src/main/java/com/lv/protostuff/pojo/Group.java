@@ -1,4 +1,4 @@
-package com.lv.protoStuff.pojo;
+package com.lv.protostuff.pojo;
 
 import lombok.Builder;
 import lombok.Data;
@@ -7,13 +7,14 @@ import lombok.Data;
  * @Project ：lv-RPC
  * @Author ：Levi_Bee
  * @Date ：2023/3/30 15:39
- * @description ：User 类
+ * @description ：Group 类
  */
 @Data
 @Builder
-public class User {
+public class Group {
     private String id;
+
     private String name;
-    private Integer age;
-    private String desc;
+
+    private User user;
 }

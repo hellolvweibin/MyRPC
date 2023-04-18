@@ -1,4 +1,4 @@
-package com.lv.protoStuff;
+package com.lv.protostuff;
 
 import io.protostuff.LinkedBuffer;
 import io.protostuff.ProtostuffIOUtil;
